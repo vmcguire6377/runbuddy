@@ -46,9 +46,7 @@ h1 {
     font-weight: lighter;
     font-size: 1.55vw;
   }
-  .intro {
-    text-align: center;
-  }
+ 
   .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -58,9 +56,9 @@ h1 {
   .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
+    text-align: center;
   }
   .steps { 
-    text-align: center;
     background: #fce138;
   }
   .steps h2 {
@@ -122,7 +120,6 @@ h1 {
     display: inline-block;
   }
   .trainers {
-    text-align: center;
     overflow: auto;
   }
   .trainer {
@@ -168,14 +165,14 @@ h1 {
 
 .section-title {
   font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  margin-bottom: 35px;
   color: #024e76;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 .contact {
-  text-align: center;
   background: #024e76;
 }
 .secondary-border {
@@ -236,7 +233,7 @@ h1 {
   section {
     padding: 60px;
    
-  }
+  
   /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -310,13 +307,14 @@ h1 {
     font-size: 55px;
     color: #fce138;
 
-  }
-  
 
   /* Hero Style End */
 
- 
-test
+}
+.flex-row {
+  display: flex;
+} 
+
 
     
 
