@@ -85,7 +85,7 @@ header h1 {
   .step {
     margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%;
+    width: 30%;
     border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
@@ -138,18 +138,25 @@ header h1 {
     /* add this alongside your other declarations */
     display: inline-block;
   }
-  .trainers {
-    overflow: auto;
-  }
+ .trainer-cont {
+   display: flex;
+ }
   .trainer {
     margin: 20px;
     flex: 1;
     background: #024e76;
     color: #fce138;
+    flex-direction: row;
   }
-  .trainer img {
-    width: 100%;
+  .trainers {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    
   }
+
   
   .trainer-bio {
     padding: 25px;
@@ -160,13 +167,6 @@ header h1 {
   .trainer-bio h3 {
     font-size: 28px;
     
-  }
-  .trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
   
   .trainer-bio h4 {
