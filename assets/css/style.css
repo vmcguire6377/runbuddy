@@ -156,8 +156,9 @@ header h1 {
     overflow: auto;
     
   }
-
-  
+  .trainer img {
+    width: 100%;
+ }
   .trainer-bio {
     padding: 25px;
     background: #024e76;
@@ -321,7 +322,9 @@ header h1 {
 
   /* Hero Style End */
 
-  
+  .text-left {
+    text-align: left
+  }
   
   .text-right {
     text-align: right;
