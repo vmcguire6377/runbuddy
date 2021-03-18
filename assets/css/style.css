@@ -9,7 +9,8 @@ body {
 color: #39a6b2;
 font-family: Helvetica, Arial, sans-serif;
 }
-/* apply styles to <header> */ 
+
+/* HEADER / NAV BAR STYLES START */
 
 header {
   padding: 20px 35px;
@@ -26,14 +27,15 @@ header h1 {
   color: #fce138;
 }
 
-
 header a {
   text-decoration: none;
 color: #fce138;
 }
+
 header nav {
   margin: 7px 0;
 }
+
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -41,59 +43,67 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
+
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
-
 }
+
+/* WHAT WE DO STYLES */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
+  margin: 0 auto;
   font-size: 20px;
   text-align: center;
-  margin: 0 auto;
-}
+  }
+/* WHAT WE DO STYLES END */
 
+/* WHAT YOU DO STYLES START */
 .steps { 
   background: #fce138;
 }
-.steps h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #39a6b2;
-}
 
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
- 
-}
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
-  width: 30%;
+  width: 50%;
   border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
+
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
+ }
+
+ .step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .step-img {
   flex: 1 12%;
   margin-right: 20px;
 }
+
 .step-img img {
   max-width: 100%;
 }
+
 .step-text {
   flex: 12;
 }
+
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
@@ -103,44 +113,18 @@ header nav ul li a {
   line-height: 1.5;
   color: #024e76;
 }
-.step-info {
-  flex: 2 70%;
+/* WHAT YOU DO STYLES END */
+
+/* MEET THE TRAINERS START */
+
+.trainers {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-
-}
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
+  justify-content: space-around;
 }
 
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-}
-.intro h2 {
-  /* add this alongside your other declarations */
-  display: inline-block;
-}
-.trainer-cont {
- display: flex;
-}
 .trainer {
   margin: 20px;
   flex: 1;
@@ -148,26 +132,18 @@ header nav ul li a {
   color: #fce138;
   flex-direction: row;
 }
-.trainers {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  overflow: auto;
-  
-}
+
 .trainer img {
   width: 100%;
 }
+
 .trainer-bio {
   padding: 25px;
-  background: #024e76;
   line-height: 1.3;
 }
 
 .trainer-bio h3 {
   font-size: 28px;
-  
 }
 
 .trainer-bio h4 {
@@ -178,38 +154,47 @@ header nav ul li a {
 
 .trainer-bio p {
   font-size: 17px;
-  
 }
+
+.trainer-cont {
+  display: flex;
+}
+
+/* TRAINER STYLES END */
+
 /* REACH OUT STYLES START */
 
-.section-title {
-font-size: 55px;
-border-bottom: 3px solid;
-color: #024e76;
-padding-bottom: 20px;
-text-align: center;
-margin: 0 auto 35px auto;
-width: 50%;
-}
 .contact {
 background: #024e76;
+}
+.contact h2 {
+  color: #fce138;
 }
 .secondary-border {
 border-color: #39a6b2;
 }
-
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+  }
 
 .contact-info iframe {
 height: 400px;
 }
-.contact-info {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
 
 .contact-info div {
 color: #fce138;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
 }
 
 .contact-info p, .contact-info address {
@@ -219,6 +204,7 @@ font-size: 16px;
 font-style: normal;
 color: white
 }
+
 .contact-form input, .contact-form textarea {
 border: 1px solid #024e76;
 display: block;
@@ -242,39 +228,40 @@ font-size: 16px;
 .contact-info a {
 color: #fce138;
 }
-.contact-info > * {
-flex: 1;
-margin: 15px;
-}
-
 /* REACH OUT STYLES END */
 
+
+/* FOOTER STYLES START */
 footer {
+  background: #fce138;
+  padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #fce138;
   width: 100%;
-  padding: 40px 35px;
 }
+
 footer h2 {
-  
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
+
 footer div {
   line-height: 1.5;
   text-align: right;
 }
+
 footer a {
   color: #024e76;
 }
+/* END FOOTER STYLES */
 
+/* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
- 
 }
+
 /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -285,17 +272,28 @@ section {
   flex-wrap: wrap;
 }
 
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+}
 .hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #024e76;
 }
-
 
 .hero-form h3 {
   font-size: 24px;
@@ -327,23 +325,35 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
-
 /* Hero Style End */
 
 
+/* SECTION TITLE STYLES START */
+
+.section-title {
+  font-size: 55px;
+  border-bottom: 3px solid;
+  color: #024e76;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  }
+
+  .primary-border {
+    border-color: #fce138;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+/* SECTION TITLE STYLES END */
+
+/* UTILITIES */
+
+.text-right {
+  text-align: right;
+}
 
 
 .flex-row {
