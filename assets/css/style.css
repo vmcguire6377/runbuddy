@@ -31,14 +31,9 @@ header a {
   text-decoration: none;
 color: #fce138;
 }
-
 header nav {
   margin: 7px 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -46,15 +41,10 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
-
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
-<<<<<<< HEAD
-=======
-
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 /* WHAT WE DO STYLES */
@@ -63,7 +53,6 @@ header nav ul li a {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
-<<<<<<< HEAD
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
@@ -79,42 +68,12 @@ header nav ul li a {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 50%;
-=======
-  font-size: 20px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.steps { 
-  background: #fce138;
-}
-.steps h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #39a6b2;
-}
-
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
- 
-}
-.step {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 30%;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
   border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
-<<<<<<< HEAD
 
 .step h3 {
   color: #024e76;
@@ -123,49 +82,15 @@ header nav ul li a {
  }
 
  .step-info {
-=======
-.step-img {
-  flex: 1 12%;
-  margin-right: 20px;
-}
-.step-img img {
-  max-width: 100%;
-}
-.step-text {
-  flex: 12;
-}
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
-}
-.step-info {
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-<<<<<<< HEAD
 }
 
 .step-img {
   flex: 1 12%;
   margin-right: 20px;
-=======
-
-}
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 .step-img img {
@@ -185,7 +110,6 @@ header nav ul li a {
   line-height: 1.5;
   color: #024e76;
 }
-<<<<<<< HEAD
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -196,10 +120,6 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-=======
-.trainer-cont {
- display: flex;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 .trainer {
@@ -208,37 +128,19 @@ header nav ul li a {
   background: #024e76;
   color: #fce138;
   flex-direction: row;
-<<<<<<< HEAD
-=======
-}
-.trainers {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  overflow: auto;
-  
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 .trainer img {
   width: 100%;
 }
+
 .trainer-bio {
   padding: 25px;
-<<<<<<< HEAD
-=======
-  background: #024e76;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
   line-height: 1.3;
 }
 
 .trainer-bio h3 {
   font-size: 28px;
-<<<<<<< HEAD
-=======
-  
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 .trainer-bio h4 {
@@ -249,25 +151,10 @@ header nav ul li a {
 
 .trainer-bio p {
   font-size: 17px;
-<<<<<<< HEAD
-=======
-  
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
-<<<<<<< HEAD
 .trainer-cont {
   display: flex;
-=======
-.section-title {
-font-size: 55px;
-border-bottom: 3px solid;
-color: #024e76;
-padding-bottom: 20px;
-text-align: center;
-margin: 0 auto 35px auto;
-width: 50%;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 /* TRAINER STYLES END */
@@ -297,7 +184,6 @@ border-color: #39a6b2;
 .contact-info iframe {
 height: 400px;
 }
-<<<<<<< HEAD
 
 .contact-info div {
 color: #fce138;
@@ -306,16 +192,6 @@ color: #fce138;
 .contact-info h3 {
   color: #fce138;
   font-size: 32px;
-=======
-.contact-info {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
-
-.contact-info div {
-color: #fce138;
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 }
 
 .contact-info p, .contact-info address {
@@ -324,7 +200,6 @@ line-height: 1.5;
 font-size: 16px;
 font-style: normal;
 color: white
-<<<<<<< HEAD
 }
 
 .contact-form input, .contact-form textarea {
@@ -346,48 +221,15 @@ text-align: center;
 padding: 15px 0;
 font-size: 16px;
 }
-=======
-}
-.contact-form input, .contact-form textarea {
-border: 1px solid #024e76;
-display: block;
-padding: 7px 15px;
-font-size: 16px;
-color: #024e76;
-width: 100%;
-margin-bottom: 15px;
-margin-top: 5px;
-}
-.contact-form button {
-width: 100%;
-border: none;
-background: #fce138;
-color: #024e76;
-text-align: center;
-padding: 15px 0;
-font-size: 16px;
-}
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 
 .contact-info a {
 color: #fce138;
 }
-<<<<<<< HEAD
-=======
-.contact-info > * {
-flex: 1;
-margin: 15px;
-}
-
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 /* REACH OUT STYLES END */
 
 
 /* FOOTER STYLES START */
 footer {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   background: #fce138;
   padding: 40px 35px;
   display: flex;
@@ -397,10 +239,6 @@ footer {
 }
 
 footer h2 {
-<<<<<<< HEAD
-=======
-  
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
   color: #024e76;
   font-size: 30px;
   margin: 0;
@@ -431,7 +269,6 @@ section {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .hero-cta {
   width: 35%;
   text-align: right;
@@ -454,19 +291,6 @@ section {
   width: 40%;
   margin: 3.5%;
 }
-=======
-.hero-form {
-  background-color: #fce138;
-  padding: 20px;
-  color: #024e76;
-  width: 40%;
-  margin: 3.5%;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #024e76;
-}
-
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
 
 .hero-form h3 {
   font-size: 24px;
@@ -498,7 +322,6 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
-<<<<<<< HEAD
 /* Hero Style End */
 
 
@@ -533,31 +356,3 @@ section {
 .flex-row {
   display: flex;
 }
-
-
-
-  
-=======
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
-
-/* Hero Style End */
-
-
-
-
-.flex-row {
-  display: flex;
-}
->>>>>>> 76a93605743b7362cfb0ee7cca5be8fd6ace34d8
