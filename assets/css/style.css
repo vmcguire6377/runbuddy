@@ -347,11 +347,13 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* UTILITIES */
+.text-left {
+  text-align: left;
+}
 
 .text-right {
   text-align: right;
 }
-
 
 .flex-row {
   display: flex;
